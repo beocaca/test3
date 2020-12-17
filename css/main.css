@@ -434,6 +434,11 @@ li {
   justify-content: space-between;
   color: #989898;
 }
-.padding{
+
+.padding {
   padding: 20px 20px 0 10px;
+  background-color: white;
+  border: solid #eaeaea;
+  color: #333333;
+  box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.3);
 }
