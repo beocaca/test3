@@ -1,105 +1,110 @@
+
 .wid-large .container {
   width: 1200px;
 }
-.container--song {
-  /*width: 1200px;*/
-  /*margin: 0 auto;*/
+
+.song-total {
+  display: flex;
+  padding: 30px 0;
 }
 
 .song--left {
-  width: 72%;
+  width: 75%;
 }
 
 .song--right {
-  flex: 1
-}
-
-
-.song--left--container {
-  padding-right: 20px;
-  border: solid red;
-}
-
-.songsong {
-  display: flex;;
-}
-
-
-.song1--top {
-  display: flex;
-  padding-bottom: 40px;
-}
-
-.song1 {
-  width: 70%;
-  display: flex;
-}
-
-.song2 {
   flex: 1;
 }
 
-.song1--top--img {
+.block1 {
+  display: flex;
+}
+
+.block1--left {
+  width: 70%;
+}
+
+.block1--right {
+  flex: 1;
+}
+
+.song--left--container {
+  padding-right: 30px;
+}
+
+.menu--block1 {
+  display: flex;
+  font-size: 20px;
+  padding: 5px 0;
+}
+
+.menu--block1 li {
+  font-weight: normal;
+  padding-right: 20px;
+}
+
+.block1--menu ul {
+  font-weight: 600;
+}
+
+
+.block1--lights {
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.block1--lights--img {
   width: 55%;
 }
 
-.song1--top--text {
-  flex: 1;
+.block1--lights--text {
   padding-left: 20px;
-
+  flex: 1;
 }
 
-.song1--bottom {
-  display: flex;
-  margin: 0 -15px;
-}
-
-.song1--top p {
-  font-size: 14px;
-}
-
-.song1--top h4 {
+.block1--lights--text h4 {
+  font-size: 20px;
   margin: 0;
 }
 
-
-.song1--bot {
-  width: 50%;
-  padding: 0 15px;
-}
-
-.song1--bot p {
-  margin-top: 5px;
+.block1--lights--text p {
   font-size: 14px;
 }
 
-.song1--bot h5 {
-  margin-top: -5px;
-}
-
-.song2 ul {
-  padding-left: 30px;
-}
-
-.song2 li {
-  padding: 10px;
-  list-style-type: circle;
-  border-bottom: dotted #888888 1px
-}
-
-.song2 li:last-child {
-  /*border-bottom-color: transparent;*/
-}
-.topview{
-  border: solid #999999;
-
-}
-.song--left--content {
-  border: solid 1px black;
+.block1--related {
   display: flex;
-  margin-top: 20px;
+  margin: 0 -20px;
 }
-.song--left--content .song1 {
-  width: 70%;
+
+.block1--related--item {
+  padding: 0 20px;
 }
-.song--left--content .song2 {}
+
+.block1--related--item p {
+  font-size: 14px;
+}
+
+.block1--related--item h5 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.block1--total {
+  display: flex;
+}
+
+.block1--right ul {
+  font-weight: 600;
+  padding: 0 30px;
+}
+
+.block1--right--topview li {
+  font-weight: normal;
+  font-size: 15px;
+  list-style-type: circle;
+  border-bottom: solid #eee;
+  padding: 10px 0;
+}
+.border1{
+  border: solid #ddd;
+}
