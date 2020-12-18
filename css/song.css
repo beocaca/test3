@@ -128,7 +128,41 @@
   font-size: 15px;
   opacity: 0.9;
 }
-.block2--new--item{
+
+.block2--new--item {
   border-bottom: #ddd solid;
   padding-bottom: 30px;
 }
+
+.block2--box {
+  padding: 0 20px 10px 20px;
+  border: solid red;
+}
+
+.block2--items:last-child {
+  border-bottom: transparent;
+}
+
+.block2--items {
+  display: flex;
+  padding: 10px 0;
+  border-bottom: solid red;
+}
+
+.block2--tems--img {
+  width: 45%;
+}
+
+.block2--items--text {
+  padding-left: 10px;
+  font-size: 15px;
+  flex: 1
+}
+
+.block2--calegogy h5 {
+  margin-top: 05px;
+  font-size: 16px;
+
+}
+
+
