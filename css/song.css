@@ -105,6 +105,30 @@
   border-bottom: solid #eee;
   padding: 10px 0;
 }
-.border1{
+
+.border1 {
   border: solid #ddd;
+}
+
+.block2--info {
+  display: flex;
+}
+
+.block2--img {
+  width: 40%;
+}
+
+.block2--text {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.block2--text p {
+  margin-top: 0;
+  font-size: 15px;
+  opacity: 0.9;
+}
+.block2--new--item{
+  border-bottom: #ddd solid;
+  padding-bottom: 30px;
 }
