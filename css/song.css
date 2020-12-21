@@ -3,6 +3,10 @@
   width: 1200px;
 }
 
+.foot-song .container--foot {
+  padding: 0 -20px;
+}
+
 .song-total {
   display: flex;
   padding: 30px 0;
@@ -40,11 +44,15 @@
 
 .menu--block1 li {
   font-weight: normal;
+  margin-top: -18px;
   padding-right: 20px;
+  background-color: #f6f6f6;
 }
 
-.block1--menu ul {
-  font-weight: 600;
+.block1--menu {
+  background-image: url("../img/pxcat1.png");
+  background-repeat: repeat-x;
+
 }
 
 
@@ -96,9 +104,12 @@
 .block1--right ul {
   font-weight: 600;
   padding: 0 30px;
+  background-image: url(../img/pxcat1.png);
+  background-repeat: repeat-x;
 }
 
 .block1--right--topview li {
+
   font-weight: normal;
   font-size: 15px;
   list-style-type: circle;
@@ -135,8 +146,9 @@
 }
 
 .block2--box {
+  margin-top: 20px;
   padding: 0 20px 10px 20px;
-  border: solid red;
+
 }
 
 .block2--items:last-child {
@@ -146,7 +158,6 @@
 .block2--items {
   display: flex;
   padding: 10px 0;
-  border-bottom: solid red;
 }
 
 .block2--tems--img {
@@ -160,9 +171,24 @@
 }
 
 .block2--calegogy h5 {
+  background-color: #eee;
   margin-top: 05px;
+  padding: 3px;
   font-size: 16px;
-
 }
 
+.block2--content {
+  display: flex;
+  flex-direction: column;
+}
 
+.block2--list {
+  margin-top: -10px;
+}
+
+.song--left hr {
+  background-image: url(../img/pxcat1.png);
+  background-repeat: repeat-x;
+  height: 10px;
+  border-top: none
+}
